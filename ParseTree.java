@@ -13,8 +13,6 @@ public class ParseTree {
 
 		public ParseTree(String input){
 			initTree(input);
-			left = null;
-			right = null;
 		}
 
 		public ParseTree(char input){
